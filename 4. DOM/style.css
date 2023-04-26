@@ -1,0 +1,9 @@
+.active{
+    color: red;
+    background-color: yellow;
+}
+
+.dark{
+    color: pink;
+    background-color: #000;
+}
