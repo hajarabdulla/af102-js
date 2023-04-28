@@ -15,20 +15,20 @@ const input = document.querySelector("input");
 
 // let a = alert('Enter the num')
 
-btn.addEventListener("mouseover", changeColor);
-btn.addEventListener("mouseout", changeGeen);
+// btn.addEventListener("mouseover", changeColor);
+// btn.addEventListener("mouseout", changeGeen);
 
-function changeColor() {
-  btn.style.background = "red";
-}
+// function changeColor() {
+//   btn.style.background = "red";
+// }
 
-function changeGeen() {
-  btn.style.background = "green";
-}
+// function changeGeen() {
+//   btn.style.background = "green";
+// }
 
-input.addEventListener("input", () => {
-  console.log(input.value);
-});
+// input.addEventListener("input", () => {
+//   console.log(input.value);
+// });
 
 // window.addEventListener("load", () => {
 //   if (document.documentElement.scrollTop > 50) {
@@ -36,14 +36,18 @@ input.addEventListener("input", () => {
 //   }
 // });
 
-window.addEventListener("keydown", aa);
+// window.addEventListener("keydown", aa);
 
-function aa(e) {
-  if (e.key == "e") {
-    btn.style.background = "red";
-  } else if (e.key == " ") {
-    btn.style.background = "green";
-  } else {
-    btn.style.background = "pink";
-  }
-}
+// function aa(e) {
+//   if (e.key == "e") {
+//     btn.style.background = "red";
+//   } else if (e.key == " ") {
+//     btn.style.background = "green";
+//   } else {
+//     btn.style.background = "pink";
+//   }
+// }
+
+// btn.addEventListener("click", (e) => {
+//   console.log(e.target);
+// });
